@@ -12,25 +12,67 @@ $(document).ready(function(){
 	}
 	
 	//Get permission from raw string, returns array
-	function getPermissions(string){
-		var pmArray = string.split(",");
+	function getPermissions(pmString){
+		var pmRes = [];
+		var pmArray = pmString.split(",");
 		
-		//fix first element e.g. "Klout will receive the following info: your public profile"
-		var firstEl = pmArray[0].split(":")[1]; //cut info at start 
-		firstEl = firstEl.substring(5,firstEl.length); //cut "your" from the start
-		pmArray[0] = firstEl;
-		
-		//fix last element (which consists of two) e.g "current city and likes."
-		var lastElements = pmArray[pmArray.length-1].split("and");
-		var secondLastEl = lastElements[0];
-		var lastEl = lastElements[1].substring(0,lastElements[1].length-1);
-		pmArray[pmArray.length-1] = secondLastEl;
-		pmArray.push(lastEl);
-		
-		for(var i = 0; i < pmArray.length; i++){
-			pmArray[i] = pmArray[i].trim();
+		if(pmArray[0].indexOf("would like to") >= 0){ //no permission array
+			pmRes.push("post");
+		}
+		else{
+			//fix first element e.g. "Klout will receive the following info: your public profile"
+			var firstEl = pmArray[0].split(":")[1]; //cut info at start 
+			firstEl = firstEl.substring(5,firstEl.length); //cut "your" from the start
+			pmArray[0] = firstEl;
+			
+			//fix last element (which consists of two) e.g "current city and likes."
+			var lastElements = pmArray[pmArray.length-1].split("and");
+			var secondLastEl = lastElements[0];
+			var lastEl = lastElements[1].substring(0,lastElements[1].length-1);
+			pmArray[pmArray.length-1] = secondLastEl;
+			pmArray.push(lastEl);
+			
+			var friends_stuff = false;
+			for(var i = 0; i < pmArray.length; i++){
+				pmArray[i] = pmArray[i].trim();
+				//remove "and" for permissions with and
+				if(pmArray[i].indexOf("religious and political view") >= 0){
+					pmArray[i] = "religious/political view";
+				}
+				if(pmArray[i].indexOf("follows and followers") >= 0){
+					pmArray[i] = "follows/followers";
+				}
+				pmArray[i] = pmArray[i].trim();
+				
+				//check if the elements are in fact about the friends (if friends all following stuff will be about friends)
+				if(pmArray[i].indexOf("friends'") >= 0){
+					friends_stuff = true;
+					
+					//further decomposion needed e.g. "games activity and news activity and your friends' relationships"
+					var els = pmArray[i].split("and");
+					for (var u = 0; u < els.length; u++){
+						if(u == els.length-1){ //last element in array, first for friends' e.g. your friends' relationships
+							var el = els[u].substring(14, els[u].length);
+							el = "F_" + el.trim();
+							pmRes.push(el);
+						}
+						else{
+							//last permissions for me (not friends')
+							pmRes.push(els[u].trim());
+						}
+					}
+				}
+				else{
+					if(friends_stuff){
+						pmRes.push("F_" + pmArray[i]);
+					}
+					else{
+						pmRes.push(pmArray[i]);
+					}
+				}
+			}
 		}
 		
-		return pmArray;
+		return pmRes;
 	}
 });
