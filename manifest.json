@@ -6,7 +6,7 @@
 	"version": "0.0.1",
 
 	"content_scripts": [{
-        "js": [ "script.js" ],
+        "js": [ "jquery-2.0.3.min.js", "script.js" ],
         "matches": [ "<all_urls>" ],
         "run_at": "document_end"
   	}]
