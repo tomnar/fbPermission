@@ -34,6 +34,7 @@ $(document).ready(function(){
 				    });
 				}
 			});
+			$(".fsm").append(' . <a class="_5j93" href="' + chrome.extension.getURL("options.html") + '" target="_blank">fbPermissions Options</a>');
 			$("._13").prepend('<div class="banner"><a href="#"><img src="' + chrome.extension.getURL("logo.png") + '" /></a></div>');
 		}
 	}
