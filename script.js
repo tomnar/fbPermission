@@ -6,6 +6,8 @@ $(document).ready(function(){
 			console.log("fb pop up found!");
 			
 			var permissions = getPermissions($('._5b_h').text());
+			var container = $('._5b_h').text("");
+			container.append('<h1>Permissions requested:</h1>');
 			
 			$.getJSON( chrome.extension.getURL("permissions.json"), function( data ) {
 				for (var e = 0; e < permissions.length; e++){
@@ -25,6 +27,7 @@ $(document).ready(function(){
 							}
 						}
 						console.log(description);
+						container.append('<div class="tile"><div>' + value + '</div></div>');
 				    });
 				}
 			});
