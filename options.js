@@ -33,8 +33,15 @@ $(document).ready(function(){
 		$("li").each(function(){
 			var id = $(this).find('input:checked').attr("name");
 			var value = $(this).find('input:checked').attr("value");
-			console.log(id + ", "+ value);
-			//chrome.storage.sync.set({'qq': 'aa'});
+			if(id != undefined && value != undefined){
+				var obj = {};
+				obj[id] = value;
+				chrome.storage.sync.set(obj, function () {
+				    //chrome.storage.sync.get(id, function (obj) {
+				    //    console.log(obj);
+				    //});
+				});
+			}
 		});
 	});
 });
