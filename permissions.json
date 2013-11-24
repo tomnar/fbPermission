@@ -338,7 +338,7 @@
 	"post":{
 		"id":56,
 		"description":"none yet",
-		"value":"Posting on your behalf",
+		"value":"Posting in your name",
 		"type":"other"
 	},
 	"email_address":{
