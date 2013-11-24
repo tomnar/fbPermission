@@ -9,5 +9,6 @@
         "js": [ "jquery-2.0.3.min.js", "script.js" ],
         "matches": [ "<all_urls>" ],
         "run_at": "document_end"
-  	}]
+  	}],
+	"options_page": "options.html",
 }
