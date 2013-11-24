@@ -1,18 +1,15 @@
-console.log("script loaded");
 $(document).ready(function(){
 	window.setTimeout( checkFb, 200 ); // .2 seconds
 	
 	function checkFb(){
-		
-		chrome.storage.sync.get("qq", function(data) {
-		      console.log(data.qq);
-		    });
-		
 		if(document.getElementById("platformDialogForm") != null){ //check if fb is on the page
 			console.log("fb pop up found!");
 			
 			var permissions = getPermissions($('._5b_h').text());
 			console.log(permissions);
+			$.getJSON( chrome.extension.getURL("permissions.json"), function( data ) {
+				console.log(data);
+			});
 		}
 	}
 	
@@ -77,7 +74,6 @@ $(document).ready(function(){
 				}
 			}
 		}
-		
 		return pmRes;
 	}
 });
