@@ -34,6 +34,7 @@ $(document).ready(function(){
 				    });
 				}
 			});
+			$("._13").prepend('<div class="banner"><a href="#"><img src="' + chrome.extension.getURL("logo.png") + '" /></a></div>');
 		}
 	}
 	
