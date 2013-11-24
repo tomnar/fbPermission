@@ -17,6 +17,15 @@ function restore_options() {
   console.log(localStorage["qq"])
   localStorage["qq"] = "aa";
   console.log(localStorage.qq)
+  
+  chrome.storage.sync.set({'qq': 'aa'}, function() {
+    // Notify that we saved.
+    console.log('Settings saved');
+    chrome.storage.sync.get("qq", function(data) {
+      console.log(data.qq);
+    });
+  });
+  
   var favorite = localStorage["favorite_color"];
   if (!favorite) {
     return;

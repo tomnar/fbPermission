@@ -10,5 +10,8 @@
         "matches": [ "<all_urls>" ],
         "run_at": "document_end"
   	}],
+  	"permissions": [
+	    "storage"
+	  ],
 	"options_page": "options.html"
 }

@@ -3,6 +3,11 @@ $(document).ready(function(){
 	window.setTimeout( checkFb, 200 ); // .2 seconds
 	
 	function checkFb(){
+		
+		chrome.storage.sync.get("qq", function(data) {
+		      console.log(data.qq);
+		    });
+		
 		if(document.getElementById("platformDialogForm") != null){ //check if fb is on the page
 			console.log("fb pop up found!");
 			
