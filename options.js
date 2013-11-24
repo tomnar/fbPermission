@@ -49,5 +49,6 @@ $(document).ready(function(){
 				});
 			}
 		});
+		$(".info").slideDown().delay(3000).slideUp();
 	});
 });

@@ -66,3 +66,7 @@ input[type="submit"]{
 .saveArea{
 	text-align: center;
 }
+.info{
+	font-weight: bold;
+	display:none;
+}
