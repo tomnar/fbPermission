@@ -27,7 +27,7 @@ $(document).ready(function(){
 							}
 						}
 						console.log(description);
-						container.append('<div class="tile"><div>' + value + '</div></div>');
+						container.append('<div class="tile rating' + rating + '"><div>' + value + '</div></div>');
 				    });
 				}
 			});

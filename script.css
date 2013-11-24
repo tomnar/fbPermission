@@ -3,7 +3,6 @@
 }
 	
 ._5b_h .tile{
-	background-color: rgba(0, 128, 0, 0.7);;
 	-webkit-border-radius: 7px;
 	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
 	display: inline-block;
@@ -11,6 +10,15 @@
 	width: 70px;
 	color: white;
 	margin: 3px;
+}
+._5b_h .rating0{
+	background-color: rgba(0, 128, 0, 0.7);
+}
+._5b_h .rating1{
+	background-color: rgba(255, 165, 0, 0.7);
+}
+._5b_h .rating2{
+	background-color: rgba(221, 0, 0, 0.7);
 }
 ._5b_h .tile div{
 	vertical-align: middle;
