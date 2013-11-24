@@ -14,7 +14,7 @@ $(document).ready(function(){
 	//Get permission from raw string, returns array
 	function getPermissions(pmString){
 		var pmRes = [];
-		var pmArray[i] = pmArray[i].trim().replace(" ","_");
+		var pmArray = pmString.split(",");
 		
 		if(pmArray[0].indexOf("would like to") >= 0){ //no permission array
 			pmRes.push("post");
@@ -34,7 +34,7 @@ $(document).ready(function(){
 			
 			var friends_stuff = false;
 			for(var i = 0; i < pmArray.length; i++){
-				pmArray[i] = pmArray[i].trim();
+				pmArray[i] = pmArray[i].trim().replace(" ","_");
 				//remove "and" for permissions with and
 				if(pmArray[i].indexOf("religious and political view") >= 0){
 					pmArray[i] = "religious/political view";
