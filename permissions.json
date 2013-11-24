@@ -2,286 +2,343 @@
 	"public_profile":{
 		"id":0,
 		"description":"none yet",
-		"value":"public profile"
+		"value":"public profile",
+		"type":"personal"
 	},
 	"friend_list":{
 		"id":1,
 		"description":"none yet",
-		"value":"friend list"
+		"value":"friend list",
+		"type":"personal"
 	},
 	"relationships":{
 		"id":2,
 		"description":"none yet",
-		"value":"relationships"
+		"value":"relationships",
+		"type":"personal"
 	},
 	"relationship_interests":{
 		"id":3,
 		"description":"none yet",
-		"value":"relationship interests"
+		"value":"relationship interests",
+		"type":"personal"
 	},
 	"birthday":{
 		"id":4,
 		"description":"none yet",
-		"value":"birthday"
+		"value":"birthday",
+		"type":"personal"
 	},
 	"chat_status":{
 		"id":5,
 		"description":"none yet",
-		"value":"chat status"
+		"value":"chat status",
+		"type":"personal"
 	},
 	"notes":{
 		"id":6,
 		"description":"none yet",
-		"value":"notes"
+		"value":"notes",
+		"type":"personal"
 	},
 	"work_history":{
 		"id":7,
 		"description":"none yet",
-		"value":"work history"
+		"value":"work history",
+		"type":"personal"
 	},
 	"status_updates":{
 		"id":8,
 		"description":"none yet",
-		"value":"status updates"
+		"value":"status updates",
+		"type":"personal"
 	},
 	"check-ins":{
 		"id":9,
 		"description":"none yet",
-		"value":"check-ins"
+		"value":"check-ins",
+		"type":"personal"
 	},
 	"education_history":{
 		"id":10,
 		"description":"none yet",
-		"value":"education history"
+		"value":"education history",
+		"type":"personal"
 	},
 	"events":{
 		"id":11,
 		"description":"none yet",
-		"value":"events"
+		"value":"events",
+		"type":"personal"
 	},
 	"groups":{
 		"id":12,
 		"description":"none yet",
-		"value":"groups"
+		"value":"groups",
+		"type":"personal"
 	},
 	"hometown":{
 		"id":13,
 		"description":"none yet",
-		"value":"hometown"
+		"value":"hometown",
+		"type":"personal"
 	},
 	"interests":{
 		"id":14,
 		"description":"none yet",
-		"value":"interests"
+		"value":"interests",
+		"type":"personal"
 	},
 	"current_city":{
 		"id":15,
 		"description":"none yet",
-		"value":"current city"
+		"value":"current city",
+		"type":"personal"
 	},
 	"Photos":{
 		"id":16,
 		"description":"none yet",
-		"value":"Photos"
+		"value":"Photos",
+		"type":"personal"
 	},
 	"questions":{
 		"id":17,
 		"description":"none yet",
-		"value":"questions"
+		"value":"questions",
+		"type":"personal"
 	},
 	"religious/political view":{
 		"id":18,
 		"description":"none yet",
-		"value":"religious and political view"
+		"value":"religious and political view",
+		"type":"personal"
 	},
 	"follows/followers":{
 		"id":19,
 		"description":"none yet",
-		"value":"follows and followers"
+		"value":"follows and followers",
+		"type":"personal"
 	},
 	"videos":{
 		"id":20,
 		"description":"none yet",
-		"value":"videos"
+		"value":"videos",
+		"type":"personal"
 	},
 	"website":{
 		"id":21,
 		"description":"none yet",
-		"value":"website"
+		"value":"website",
+		"type":"personal"
 	},
 	"personal_description":{
 		"id":22,
 		"description":"none yet",
-		"value":"personal description"
+		"value":"personal description",
+		"type":"personal"
 	},
 	"likes":{
 		"id":23,
 		"description":"none yet",
-		"value":"likes"
+		"value":"likes",
+		"type":"personal"
 	},
 	"Video_activity":{
 		"id":24,
 		"description":"none yet",
-		"value":"Video activity"
+		"value":"Video activity",
+		"type":"personal"
 	},
 	"music_activity":{
 		"id":25,
 		"description":"none yet",
-		"value":"music activity"
+		"value":"music activity",
+		"type":"personal"
 	},
 	"news_activity":{
 		"id":26,
 		"description":"none yet",
-		"value":"news activity"
+		"value":"news activity",
+		"type":"personal"
 	},
 	"Books_activity":{
 		"id":27,
 		"description":"none yet",
-		"value":"Books activity"
+		"value":"Books activity",
+		"type":"personal"
 	},
 	"games_activity":{
 		"id":28,
 		"description":"none yet",
-		"value":"games activity"
+		"value":"games activity",
+		"type":"personal"
 	},
 	"F_relationships":{
 		"id":29,
 		"description":"none yet",
-		"value":"relationships"
+		"value":"relationships",
+		"type":"friends"
 	},
 	"F_relationship_interests":{
 		"id":30,
 		"description":"none yet",
-		"value":"relationship interests"
+		"value":"relationship interests",
+		"type":"friends"
 	},
 	"F_birthdays":{
 		"id":31,
 		"description":"none yet",
-		"value":"birthdays"
+		"value":"birthdays",
+		"type":"friends"
 	},
 	"F_chat_statuses":{
 		"id":32,
 		"description":"none yet",
-		"value":"chat statuses"
+		"value":"chat statuses",
+		"type":"friends"
 	},
 	"F_notes":{
 		"id":33,
 		"description":"none yet",
-		"value":"notes"
+		"value":"notes",
+		"type":"friends"
 	},
 	"F_work_histories":{
 		"id":34,
 		"description":"none yet",
-		"value":"work histories"
+		"value":"work histories",
+		"type":"friends"
 	},
 	"F_status_updates":{
 		"id":35,
 		"description":"none yet",
-		"value":"status updates"
+		"value":"status updates",
+		"type":"friends"
 	},
 	"F_check-ins":{
 		"id":36,
 		"description":"none yet",
-		"value":"check-ins"
+		"value":"check-ins",
+		"type":"friends"
 	},
 	"F_education_histories":{
 		"id":37,
 		"description":"none yet",
-		"value":"education histories"
+		"value":"education histories",
+		"type":"friends"
 	},
 	"F_events":{
 		"id":38,
 		"description":"none yet",
-		"value":"events"
+		"value":"events",
+		"type":"friends"
 	},
 	"F_groups":{
 		"id":39,
 		"description":"none yet",
-		"value":"groups"
+		"value":"groups",
+		"type":"friends"
 	},
 	"F_hometowns":{
 		"id":40,
 		"description":"none yet",
-		"value":"hometowns"
+		"value":"hometowns",
+		"type":"friends"
 	},
 	"F_interests":{
 		"id":41,
 		"description":"none yet",
-		"value":"interests"
+		"value":"interests",
+		"type":"friends"
 	},
 	"F_current_cities":{
 		"id":42,
 		"description":"none yet",
-		"value":"current cities"
+		"value":"current cities",
+		"type":"friends"
 	},
 	"F_photos":{
 		"id":43,
 		"description":"none yet",
-		"value":"photos"
+		"value":"photos",
+		"type":"friends"
 	},
 	"F_questions":{
 		"id":44,
 		"description":"none yet",
-		"value":"questions"
+		"value":"questions",
+		"type":"friends"
 	},
 	"F_religious/political view":{
 		"id":45,
 		"description":"none yet",
-		"value":"religious and political view"
+		"value":"religious and political view",
+		"type":"friends"
 	},
 	"F_follows/followers":{
 		"id":46,
 		"description":"none yet",
-		"value":"follows and followers"
+		"value":"follows and followers",
+		"type":"friends"
 	},
 	"F_videos":{
 		"id":47,
 		"description":"none yet",
-		"value":"videos"
+		"value":"videos",
+		"type":"friends"
 	},
 	"F_websites":{
 		"id":48,
 		"description":"none yet",
-		"value":"websites"
+		"value":"websites",
+		"type":"friends"
 	},
 	"F_personal description":{
 		"id":49,
 		"description":"none yet",
-		"value":"personal description"
+		"value":"personal description",
+		"type":"friends"
 	},
 	"F_likes":{
 		"id":50,
 		"description":"none yet",
-		"value":"likes"
+		"value":"likes",
+		"type":"friends"
 	},
 	"F_music_activity":{
 		"id":51,
 		"description":"none yet",
-		"value":"music activity"
+		"value":"music activity",
+		"type":"friends"
 	},
 	"F_games_activity":{
 		"id":52,
 		"description":"none yet",
-		"value":"games activity"
+		"value":"games activity",
+		"type":"friends"
 	},
 	"F_news_activity":{
 		"id":53,
 		"description":"none yet",
-		"value":"news activity"
+		"value":"news activity",
+		"type":"friends"
 	},
 	"F_Video_activity":{
 		"id":54,
 		"description":"none yet",
-		"value":"Video activity"
+		"value":"Video activity",
+		"type":"friends"
 	},
 	"F_Books_activity":{
 		"id":55,
 		"description":"none yet",
-		"value":"Books activity"
+		"value":"Books activity",
+		"type":"friends"
 	},
 	"post":{
 		"id":56,
 		"description":"none yet",
-		"value":"Posting on your behalf"	
+		"value":"Posting on your behalf",
+		"type":"other"
 	}
 }
