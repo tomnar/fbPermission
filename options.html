@@ -8,14 +8,29 @@
 <body>
 	<div class="content">
 		<h1>fbPermission Options</h1>
-	
+		
+		<p>
+			Welcome to the options page of fbPermission. 
+			Here you can set in which color the different permissions should be highligted in the facebook pop-up box.
+			There are three different groups, which can be altered to fit your needs:
+		</p>
+		<p>
+			If you are a developer please consider to <a href="https://github.com/tomnar/fbPermission">contribute</a> to the extension, help is always greatly appreciated.
+		</p>
+		<p>
+			Note: This extension is self-contained, which means that <em><b>it does not send any data to anyone</b></em>. No 
+			Google analytics, no hidden ads, no Facebook - this app is only for you. As said before, this extension
+			is also open source, so interested people can look through the code and check if the above mentioned is 
+			true. 
+		</p>
+		
 		<fieldset> 
 			<legend>Personal data</legend> 
 			<ul class="personal"> 
 			</ul> 
 		</fieldset> 
 	
-		<fieldset> 
+		<fieldset> 	
 			<legend>Friends' data</legend> 
 			<ul class="friends">  
 			</ul> 
@@ -26,6 +41,16 @@
 			<ul class="other"> 
 			</ul> 
 		</fieldset> 
+		
+		<fieldset> 
+			<legend>Legend</legend> 
+			<ul class="infoList">
+				<li><div class="green box"></div>Green, low risk</li>
+				<li><div class="yellow box"></div>Yellow, medium risk</li>
+				<li><div class="red box"></div>Red, high risk</li>
+			</ul>
+		</fieldset>
+		 
 		<div style="clear:both;">
 			<div class="saveArea">
 				<input type="submit" value="save" />

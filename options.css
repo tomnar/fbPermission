@@ -70,3 +70,12 @@ input[type="submit"]{
 	font-weight: bold;
 	display:none;
 }
+.box{
+	width: 15px;
+	height: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin-right: 7px;
+}
+.infoList li:hover{
+	background-color: white;
+}
