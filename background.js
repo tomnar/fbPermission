@@ -22,6 +22,6 @@ $(document).ready(function(){
 	});
 	
 	function setSave(id, val){
-		chrome.storage.sync.set({id: val});
+		//chrome.storage.sync.set({id: val});
 	}
 });
