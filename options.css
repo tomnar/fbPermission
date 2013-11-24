@@ -1,0 +1,21 @@
+body{
+	margin: 0px;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+ul{
+	list-style-type: none;
+}
+h1{
+	text-align: center;
+}
+fieldset{
+	width: 375px;
+	float: left;
+	box-sizing:border-box;
+	margin: 10px;
+}
+.content{
+	width: 1200px;
+	margin: 20px auto;
+	background-color: white;
+}

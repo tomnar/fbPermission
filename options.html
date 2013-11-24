@@ -1,9 +1,35 @@
 <html>
-<head><title>My Test Extension Options</title></head>
-
+<head>
+	<title>fbPermission Options</title>
+	<script src="jquery-2.0.3.min.js"></script>
+	<script src="options.js"></script>
+	<link rel="stylesheet" type="text/css" href="/options.css">
+</head>
 <body>
-
-Favorite Color:
+	<div class="content">
+		<h1>fbPermission Options</h1>
+	
+		<fieldset> 
+			<legend>Personal data</legend> 
+			<ul class="personal"> 
+			</ul> 
+		</fieldset> 
+	
+		<fieldset> 
+			<legend>Friends' data</legend> 
+			<ul class="friends">  
+			</ul> 
+		</fieldset> 
+		
+		<fieldset> 
+			<legend>Other options</legend> 
+			<ul class="other"> 
+			</ul> 
+		</fieldset> 
+		<div style="clear:both;">
+	</div>
+	
+	
 <select id="color">
  <option value="red">red</option>
  <option value="green">green</option>
@@ -14,8 +40,6 @@ Favorite Color:
 <br>
 <div id="status"></div>
 <button id="save">Save</button>
+	</div>
 </body>
-
-<script src="options.js"></script>
-
 </html>

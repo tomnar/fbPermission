@@ -40,4 +40,35 @@ function restore_options() {
   }
 }
 document.addEventListener('DOMContentLoaded', restore_options);
-document.querySelector('#save').addEventListener('click', save_options);
+//document.querySelector('#save').addEventListener('click', save_options);
+
+$(document).ready(function(){
+	$.getJSON( "permissions.json", function(data) {
+		permissions = data;
+		var personal = $(".personal");
+		var friends = $(".friends");
+		var other = $(".other");
+		for(key in data) {
+			switch(data[key].type){
+			case "personal":
+				appendEl(personal, data[key]);
+				break;
+			case "friends":
+				appendEl(friends, data[key]);
+				break;
+			default:
+				appendEl(other, data[key]);
+				break;
+			}
+		}
+	});
+	
+	function appendEl(container, el){
+		container.append('<li>' +
+							'<label>' + el.value + '</label>' + 
+							'<input type="radio" name="' + el.id + '" value="female">' + 
+							'<input type="radio" name="' + el.id + '" value="female">' + 
+							'<input type="radio" name="' + el.id + '" value="female">' + 
+						'</li>');
+	}
+});
