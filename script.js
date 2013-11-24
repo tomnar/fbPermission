@@ -6,9 +6,27 @@ $(document).ready(function(){
 			console.log("fb pop up found!");
 			
 			var permissions = getPermissions($('._5b_h').text());
-			console.log(permissions);
+			
 			$.getJSON( chrome.extension.getURL("permissions.json"), function( data ) {
-				console.log(data);
+				for (var e = 0; e < permissions.length; e++){
+					var id = ""+data[permissions[e]].id;
+					chrome.storage.sync.get(id, function (obj) {
+						
+						array = $.map(obj, function(value, id) {return [id, value];});
+						var id = array[0];
+						var rating = array[1];
+						
+						pArray = $.map(data, function(value, id) {return [value];});
+						for (var a = 0; a < pArray.length; a++){
+							if(pArray[a].id == id){
+								var description = pArray[a].description;
+								var value = pArray[a].value;
+								var type = pArray.type;
+							}
+						}
+						console.log(description);
+				    });
+				}
 			});
 		}
 	}
