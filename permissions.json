@@ -1,13 +1,13 @@
 {
 	"public_profile":{
 		"id":0,
-		"description":"none yet",
+		"description":"Name, profile picture, age range, gender, language, country and other public info",
 		"value":"public profile",
 		"type":"personal"
 	},
 	"friend_list":{
 		"id":1,
-		"description":"none yet",
+		"description":"Complete list of all your friends, this gives ONLY their name and ID",
 		"value":"friend list",
 		"type":"personal"
 	},
@@ -343,7 +343,7 @@
 	},
 	"email_address":{
 		"id":57,
-		"description":"none yet",
+		"description":"All email adresses used by facebook",
 		"value":"Email Adress",
 		"type":"personal"
 	},

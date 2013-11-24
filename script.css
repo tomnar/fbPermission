@@ -1,6 +1,9 @@
 ._5b_i{
 	padding: 50px 0px !important;
 }
+.tooltipContent, .uiTooltipX, .tooltipWrap{
+	width: 150px !important;
+}
 	
 ._5b_h .tile{
 	-webkit-border-radius: 7px;
