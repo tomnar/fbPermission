@@ -23,10 +23,14 @@ $(document).ready(function(){
 							if(pArray[a].id == id){
 								var description = pArray[a].description;
 								var value = pArray[a].value;
-								var type = pArray.type;
+								var type = pArray[a].type;
 							}
 						}
-						container.append('<div data-hover="tooltip" aria-label="' + description + '" class="tile rating' + rating + ' ' + type + '"><div>' + value + '</div></div>');
+						var el = $('<div data-hover="tooltip" aria-label="' + description + '" class="tile rating' + rating + ' ' + type + '"><div>' + value + '</div></div>');
+						container.append(el.css("opacity","0").animate({
+						    opacity: 1
+						  }, 200, function(){})
+						);
 				    });
 				}
 			});
