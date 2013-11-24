@@ -14,7 +14,7 @@ $(document).ready(function(){
 	//Get permission from raw string, returns array
 	function getPermissions(pmString){
 		var pmRes = [];
-		var pmArray = pmString.split(",");
+		var pmArray[i] = pmArray[i].trim().replace(" ","_");
 		
 		if(pmArray[0].indexOf("would like to") >= 0){ //no permission array
 			pmRes.push("post");

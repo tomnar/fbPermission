@@ -1,282 +1,287 @@
 {
-	"public profile":{
+	"public_profile":{
 		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"description":"none yet",
+		"value":"public profile"
 	},
-	"friend list":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"friend_list":{
+		"id":1,
+		"description":"none yet",
+		"value":"friend list"
 	},
 	"relationships":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":2,
+		"description":"none yet",
+		"value":"relationships"
 	},
-	"relationship interests":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"relationship_interests":{
+		"id":3,
+		"description":"none yet",
+		"value":"relationship interests"
 	},
 	"birthday":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":4,
+		"description":"none yet",
+		"value":"birthday"
 	},
-	"chat status":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"chat_status":{
+		"id":5,
+		"description":"none yet",
+		"value":"chat status"
 	},
 	"notes":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":6,
+		"description":"none yet",
+		"value":"notes"
 	},
-	"work history":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"work_history":{
+		"id":7,
+		"description":"none yet",
+		"value":"work history"
 	},
-	"status updates":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"status_updates":{
+		"id":8,
+		"description":"none yet",
+		"value":"status updates"
 	},
 	"check-ins":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":9,
+		"description":"none yet",
+		"value":"check-ins"
 	},
-	"education history":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"education_history":{
+		"id":10,
+		"description":"none yet",
+		"value":"education history"
 	},
 	"events":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":11,
+		"description":"none yet",
+		"value":"events"
 	},
 	"groups":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":12,
+		"description":"none yet",
+		"value":"groups"
 	},
 	"hometown":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":13,
+		"description":"none yet",
+		"value":"hometown"
 	},
 	"interests":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":14,
+		"description":"none yet",
+		"value":"interests"
 	},
-	"current city":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"current_city":{
+		"id":15,
+		"description":"none yet",
+		"value":"current city"
 	},
 	"Photos":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":16,
+		"description":"none yet",
+		"value":"Photos"
 	},
 	"questions":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":17,
+		"description":"none yet",
+		"value":"questions"
 	},
 	"religious/political view":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":18,
+		"description":"none yet",
+		"value":"religious and political view"
 	},
 	"follows/followers":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":19,
+		"description":"none yet",
+		"value":"follows and followers"
 	},
 	"videos":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":20,
+		"description":"none yet",
+		"value":"videos"
 	},
 	"website":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":21,
+		"description":"none yet",
+		"value":"website"
 	},
-	"personal description":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"personal_description":{
+		"id":22,
+		"description":"none yet",
+		"value":"personal description"
 	},
 	"likes":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":23,
+		"description":"none yet",
+		"value":"likes"
 	},
-	"Video activity":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"Video_activity":{
+		"id":24,
+		"description":"none yet",
+		"value":"Video activity"
 	},
-	"music activity":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"music_activity":{
+		"id":25,
+		"description":"none yet",
+		"value":"music activity"
 	},
-	"news activity":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"news_activity":{
+		"id":26,
+		"description":"none yet",
+		"value":"news activity"
 	},
-	"Books activity":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"Books_activity":{
+		"id":27,
+		"description":"none yet",
+		"value":"Books activity"
 	},
-	"games activity":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"games_activity":{
+		"id":28,
+		"description":"none yet",
+		"value":"games activity"
 	},
 	"F_relationships":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":29,
+		"description":"none yet",
+		"value":"relationships"
 	},
-	"F_relationship interests":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"F_relationship_interests":{
+		"id":30,
+		"description":"none yet",
+		"value":"relationship interests"
 	},
 	"F_birthdays":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":31,
+		"description":"none yet",
+		"value":"birthdays"
 	},
-	"F_chat statuses":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"F_chat_statuses":{
+		"id":32,
+		"description":"none yet",
+		"value":"chat statuses"
 	},
 	"F_notes":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":33,
+		"description":"none yet",
+		"value":"notes"
 	},
-	"F_work histories":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"F_work_histories":{
+		"id":34,
+		"description":"none yet",
+		"value":"work histories"
 	},
-	"F_status updates":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"F_status_updates":{
+		"id":35,
+		"description":"none yet",
+		"value":"status updates"
 	},
 	"F_check-ins":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":36,
+		"description":"none yet",
+		"value":"check-ins"
 	},
-	"F_education histories":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"F_education_histories":{
+		"id":37,
+		"description":"none yet",
+		"value":"education histories"
 	},
 	"F_events":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":38,
+		"description":"none yet",
+		"value":"events"
 	},
 	"F_groups":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":39,
+		"description":"none yet",
+		"value":"groups"
 	},
 	"F_hometowns":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":40,
+		"description":"none yet",
+		"value":"hometowns"
 	},
 	"F_interests":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":41,
+		"description":"none yet",
+		"value":"interests"
 	},
-	"F_current cities":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"F_current_cities":{
+		"id":42,
+		"description":"none yet",
+		"value":"current cities"
 	},
 	"F_photos":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":43,
+		"description":"none yet",
+		"value":"photos"
 	},
 	"F_questions":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":44,
+		"description":"none yet",
+		"value":"questions"
 	},
 	"F_religious/political view":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":45,
+		"description":"none yet",
+		"value":"religious and political view"
 	},
 	"F_follows/followers":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":46,
+		"description":"none yet",
+		"value":"follows and followers"
 	},
 	"F_videos":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":47,
+		"description":"none yet",
+		"value":"videos"
 	},
 	"F_websites":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":48,
+		"description":"none yet",
+		"value":"websites"
 	},
 	"F_personal description":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":49,
+		"description":"none yet",
+		"value":"personal description"
 	},
 	"F_likes":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+		"id":50,
+		"description":"none yet",
+		"value":"likes"
 	},
-	"F_music activity":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"F_music_activity":{
+		"id":51,
+		"description":"none yet",
+		"value":"music activity"
 	},
-	"F_games activity":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"F_games_activity":{
+		"id":52,
+		"description":"none yet",
+		"value":"games activity"
 	},
-	"F_news activity":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"F_news_activity":{
+		"id":53,
+		"description":"none yet",
+		"value":"news activity"
 	},
-	"F_Video activity":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"F_Video_activity":{
+		"id":54,
+		"description":"none yet",
+		"value":"Video activity"
 	},
-	"F_Books activity":{
-		"id":0,
-		"description":"dfghjkl",
-		"value":"lol"
+	"F_Books_activity":{
+		"id":55,
+		"description":"none yet",
+		"value":"Books activity"
+	},
+	"post":{
+		"id":56,
+		"description":"none yet",
+		"value":"Posting on your behalf"	
 	}
 }
