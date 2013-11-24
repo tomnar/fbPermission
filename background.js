@@ -21,7 +21,13 @@ $(document).ready(function(){
 		}
 	});
 	
-	function setSave(id, val){
-		//chrome.storage.sync.set({id: val});
+	function setSave(id, value){
+		var obj = {};
+		obj[id] = value;
+		chrome.storage.sync.set(obj, function () {
+		    //chrome.storage.sync.get(id, function (obj) {
+		    //    console.log(obj);
+		    //});
+		});
 	}
 });

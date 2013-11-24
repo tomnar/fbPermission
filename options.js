@@ -20,12 +20,18 @@ $(document).ready(function(){
 	});
 	
 	function appendEl(container, el){
-		container.append('<li>' +
-							'<label>' + el.value + '</label>' + 
-							'<div class="green"><input type="radio" name="' + el.id + '" value="0"></div>' + 
-							'<div class="yellow"><input type="radio" name="' + el.id + '" value="1"></div>' + 
-							'<div class="red"><input type="radio" name="' + el.id + '" value="2"></div>' + 
-						'</li>');
+		var id = ""+el.id;
+		chrome.storage.sync.get(id, function (obj) {
+	        var value = obj[id];
+	        el = $('<li>' +
+					'<label>' + el.value + '</label>' + 
+					'<div class="green"><input type="radio" name="' + el.id + '" value="0"></div>' + 
+					'<div class="yellow"><input type="radio" name="' + el.id + '" value="1"></div>' + 
+					'<div class="red"><input type="radio" name="' + el.id + '" value="2"></div>' + 
+				  '</li>');
+	        el.find(":radio[value="+ value +"]").prop("checked", true);
+	        container.append(el);
+	    });
 	}
 	
 	//Save data when save it clicked
