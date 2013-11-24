@@ -66,9 +66,9 @@ $(document).ready(function(){
 	function appendEl(container, el){
 		container.append('<li>' +
 							'<label>' + el.value + '</label>' + 
-							'<input type="radio" name="' + el.id + '" value="female">' + 
-							'<input type="radio" name="' + el.id + '" value="female">' + 
-							'<input type="radio" name="' + el.id + '" value="female">' + 
+							'<div class="green"><input type="radio" name="' + el.id + '" value="green"></div>' + 
+							'<div class="yellow"><input type="radio" name="' + el.id + '" value="yellow"></div>' + 
+							'<div class="red"><input type="radio" name="' + el.id + '" value="red"></div>' + 
 						'</li>');
 	}
 });
