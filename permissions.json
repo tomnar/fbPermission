@@ -107,13 +107,13 @@
 		"value":"questions",
 		"type":"personal"
 	},
-	"religious/political view":{
+	"religious_and_political_views":{
 		"id":18,
 		"description":"none yet",
 		"value":"religious and political view",
 		"type":"personal"
 	},
-	"follows/followers":{
+	"follows_and_followers":{
 		"id":19,
 		"description":"none yet",
 		"value":"follows and followers",
@@ -269,13 +269,13 @@
 		"value":"questions",
 		"type":"friends"
 	},
-	"F_religious/political view":{
+	"F_religious_and_political_views":{
 		"id":45,
 		"description":"none yet",
 		"value":"religious and political view",
 		"type":"friends"
 	},
-	"F_follows/followers":{
+	"F_follows_and_followers":{
 		"id":46,
 		"description":"none yet",
 		"value":"follows and followers",
@@ -293,7 +293,7 @@
 		"value":"websites",
 		"type":"friends"
 	},
-	"F_personal description":{
+	"F_personal_description":{
 		"id":49,
 		"description":"none yet",
 		"value":"personal description",

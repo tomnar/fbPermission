@@ -26,8 +26,7 @@ $(document).ready(function(){
 								var type = pArray.type;
 							}
 						}
-						console.log(description);
-						container.append('<div class="tile rating' + rating + '"><div>' + value + '</div></div>');
+						container.append('<div data-hover="tooltip" aria-label="' + description + '" class="tile rating' + rating + ' ' + type + '"><div>' + value + '</div></div>');
 				    });
 				}
 			});
@@ -57,10 +56,10 @@ $(document).ready(function(){
 			
 			var friends_stuff = false;
 			for(var i = 0; i < pmArray.length; i++){
-				pmArray[i] = pmArray[i].trim().replace(" ","_");
+				pmArray[i] = pmArray[i].trim().replace(/ /g, '_');
 				//remove "and" for permissions with and
 				if(pmArray[i].indexOf("religious and political view") >= 0){
-					pmArray[i] = "religious/political view";
+					pmArray[i] = "religious/political_views";
 				}
 				if(pmArray[i].indexOf("follows and followers") >= 0){
 					pmArray[i] = "follows/followers";
@@ -75,12 +74,14 @@ $(document).ready(function(){
 					var els = pmArray[i].split("and");
 					for (var u = 0; u < els.length; u++){
 						if(u == els.length-1){ //last element in array, first for friends' e.g. your friends' relationships
-							var el = els[u].substring(14, els[u].length);
+							var el = els[u].substring(15, els[u].length);
 							el = "F_" + el.trim();
 							pmRes.push(el);
 						}
 						else{
 							//last permissions for me (not friends')
+							if(els[u].substring(0,1) == "_"){els[u] = els[u].substring(1,els[u].length);}//remove trailing "_xxx"
+							if(els[u].substring(els[u].length-1,els[u].length) == "_"){els[u] = els[u].substring(0,els[u].length-1);}//remove trailing "xxx_"
 							pmRes.push(els[u].trim());
 						}
 					}
