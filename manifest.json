@@ -10,5 +10,5 @@
         "matches": [ "<all_urls>" ],
         "run_at": "document_end"
   	}],
-	"options_page": "options.html",
+	"options_page": "options.html"
 }
