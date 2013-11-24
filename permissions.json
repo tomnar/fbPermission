@@ -340,5 +340,17 @@
 		"description":"none yet",
 		"value":"Posting on your behalf",
 		"type":"other"
+	},
+	"email_address":{
+		"id":57,
+		"description":"none yet",
+		"value":"Email Adress",
+		"type":"personal"
+	},
+	"News_Feed":{
+		"id":58,
+		"description":"none yet",
+		"value":"News Feed",
+		"type":"personal"
 	}
 }
