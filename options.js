@@ -18,7 +18,7 @@ function restore_options() {
   localStorage["qq"] = "aa";
   console.log(localStorage.qq)
   
-  chrome.storage.sync.set({'qq': 'aa'}, function() {
+  	chrome.storage.sync.set({'qq': 'aa'}, function() {
     // Notify that we saved.
     console.log('Settings saved');
     chrome.storage.sync.get("qq", function(data) {
@@ -66,9 +66,19 @@ $(document).ready(function(){
 	function appendEl(container, el){
 		container.append('<li>' +
 							'<label>' + el.value + '</label>' + 
-							'<div class="green"><input type="radio" name="' + el.id + '" value="green"></div>' + 
-							'<div class="yellow"><input type="radio" name="' + el.id + '" value="yellow"></div>' + 
-							'<div class="red"><input type="radio" name="' + el.id + '" value="red"></div>' + 
+							'<div class="green"><input type="radio" name="' + el.id + '" value="0"></div>' + 
+							'<div class="yellow"><input type="radio" name="' + el.id + '" value="1"></div>' + 
+							'<div class="red"><input type="radio" name="' + el.id + '" value="2"></div>' + 
 						'</li>');
 	}
+	
+	//Save data when save it clicked
+	$("input[type='submit']").click(function(){
+		$("li").each(function(){
+			var id = $(this).find('input:checked').attr("name");
+			var value = $(this).find('input:checked').attr("value");
+			console.log(id + ", "+ value);
+			//chrome.storage.sync.set({'qq': 'aa'});
+		});
+	});
 });
